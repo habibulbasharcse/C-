@@ -14,7 +14,7 @@ public:
 };
 
 
-void insertAtTail(Node*& head, Node*& tail, int val) {
+void insert_at_tail(Node*& head, Node*& tail, int val) {
     Node* newNode = new Node(val);
     if (head == NULL) {
         head = newNode;
@@ -25,7 +25,7 @@ void insertAtTail(Node*& head, Node*& tail, int val) {
     }
 }
 
-void removeDuplicates(Node* head) {
+void remove_duplicates(Node* head) {
     Node* current = head;
 
     while (current != NULL) {
@@ -65,11 +65,11 @@ int main() {
 
     int value;
     while (cin >> value && value != -1) {
-        insertAtTail(head, tail, value);
+        insert_at_tail(head, tail, value);
     }
 
     
-    removeDuplicates(head);
+    remove_duplicates(head);
 
     printList(head);
 
