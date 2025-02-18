@@ -1,0 +1,18 @@
+[4mNEXT                       [0m[4m [0m[4m    LEFT[0m[4m [0m[4mLAST                       [0m[4m [0m[4m   PASSED[0m[4m [0m[4mUNIT                          [0m[4m [0m[4mACTIVATES                       [0m
+Sun 2025-01-05 12:30:00 +06 3min 36s Sun 2025-01-05 12:20:04 +06  6min ago sysstat-collect.timer          sysstat-collect.service
+Sun 2025-01-05 12:34:19 +06     7min Sun 2025-01-05 11:31:19 +06         - anacron.timer                  anacron.service
+Sun 2025-01-05 13:43:32 +06 1h 17min Sun 2025-01-05 12:14:59 +06         - fwupd-refresh.timer            fwupd-refresh.service
+Mon 2025-01-06 00:00:00 +06      11h Sun 2025-01-05 10:38:10 +06         - dpkg-db-backup.timer           dpkg-db-backup.service
+Mon 2025-01-06 00:00:00 +06      11h -                                   - sysstat-rotate.timer           sysstat-rotate.service
+Mon 2025-01-06 00:06:57 +06      11h Sun 2025-01-05 11:27:45 +06         - logrotate.timer                logrotate.service
+Mon 2025-01-06 00:07:00 +06      11h -                                   - sysstat-summary.timer          sysstat-summary.service
+Mon 2025-01-06 00:11:36 +06      11h Sun 2025-01-05 12:16:16 +06 10min ago motd-news.timer                motd-news.service
+Mon 2025-01-06 01:25:59 +06      12h Thu 2025-01-02 13:41:01 +06         - fstrim.timer                   fstrim.service
+Mon 2025-01-06 04:24:18 +06      15h Sun 2025-01-05 12:16:02 +06 10min ago man-db.timer                   man-db.service
+Mon 2025-01-06 12:09:56 +06      23h Sun 2025-01-05 12:09:56 +06 16min ago update-notifier-download.timer update-notifier-download.service
+Mon 2025-01-06 12:19:55 +06      23h Sun 2025-01-05 12:19:55 +06  6min ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Wed 2025-01-08 19:08:28 +06   3 days Thu 2025-01-02 13:41:12 +06         - update-notifier-motd.timer     update-notifier-motd.service
+Sun 2025-01-12 03:10:56 +06   6 days Sun 2025-01-05 10:38:38 +06         - e2scrub_all.timer              e2scrub_all.service
+
+[0;1;39m14 timers listed.[0m
+Pass --all to see loaded but inactive timers, too.
